@@ -8,7 +8,7 @@ from typing_extensions import Literal
 type_property_map = {
     "videos": "videoRenderer",
     "streams": "videoRenderer",
-    "shorts": "reelItemRenderer"
+    "shorts": "reelWatchEndpoint"
 }
 
 def get_channel(
